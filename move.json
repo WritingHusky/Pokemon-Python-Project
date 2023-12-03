@@ -1,0 +1,146 @@
+{
+    "Array": [
+        {
+            "Accuracy": 100,
+            "effects": [{
+                "Value": 40,
+                "EffectType": "Damage",
+                "Result": "Physical Damage"
+            }],
+            "Type": "Normal",
+            "Priority": 0,
+            "Move name": "Punch",
+            "Power": 40
+        },
+        {
+            "Accuracy": 100,
+            "effects": [{
+                "Value": 40,
+                "EffectType": "Damage",
+                "Result": "Special Damage"
+            }],
+            "Type": "Normal",
+            "Priority": 0,
+            "Move name": "Mind Punch",
+            "Power": 40
+        },
+        {
+            "Accuracy": 100,
+            "effects": [{
+                "Value": 1,
+                "EffectType": "State",
+                "Result": "Status"
+            }],
+            "Type": "Fire",
+            "Priority": 0,
+            "Move name": "Burn",
+            "Power": 0
+        },
+        {
+            "Accuracy": 45,
+            "effects": [{
+                "Value": 4,
+                "EffectType": "State",
+                "Result": "Status"
+            }],
+            "Type": "Poison",
+            "Priority": 0,
+            "Move name": "Poison",
+            "Power": 85
+        },
+        {
+            "Accuracy": 5,
+            "effects": [
+                {
+                    "Value": 75,
+                    "EffectType": "Damage",
+                    "Result": "Special Damage"
+                },
+                {
+                    "Value": 3,
+                    "EffectType": "Alter",
+                    "Result": "Weather"
+                },
+                {
+                    "Value": -35,
+                    "EffectType": "State",
+                    "Result": "Stat Change"
+                }
+            ],
+            "Type": "Ground",
+            "Priority": 0,
+            "Move name": "Sand Blast",
+            "Power": 75
+        },
+        {
+            "Accuracy": 10,
+            "effects": [
+                {
+                    "Value": 110,
+                    "EffectType": "Damage",
+                    "Result": "Set Damage"
+                },
+                {
+                    "Value": 1,
+                    "EffectType": "Alter",
+                    "Result": "Trap"
+                },
+                {
+                    "Value": -30,
+                    "EffectType": "State",
+                    "Result": "Stat Change"
+                }
+            ],
+            "Type": "Ground",
+            "Priority": 0,
+            "Move name": "Planet Throw",
+            "Power": 35
+        },
+        {
+            "Accuracy": 40,
+            "effects": [
+                {
+                    "Value": 40,
+                    "EffectType": "Damage",
+                    "Result": "OHKO"
+                },
+                {
+                    "Value": 5,
+                    "EffectType": "Alter",
+                    "Result": "Weather"
+                }
+            ],
+            "Type": "Dragon",
+            "Priority": -1,
+            "Move name": "Roaring Fog",
+            "Power": 85
+        },
+        {
+            "Accuracy": 30,
+            "effects": [
+                {
+                    "Value": 1,
+                    "EffectType": "State",
+                    "Result": "Status"
+                },
+                {
+                    "Value": 0,
+                    "EffectType": "State",
+                    "Result": "Form Change"
+                }
+            ],
+            "Type": "Fire",
+            "Priority": 0,
+            "Move name": "Buringing Transformation",
+            "Power": 30
+        }
+    ],
+    "Nothing Moves": [{
+        "Accuracy": 0,
+        "effects": [],
+        "Type": "Normal",
+        "Priority": 0,
+        "Move name": "Nothing",
+        "Power": 0
+    }]
+}
